@@ -14,9 +14,11 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
+    @NotNull
     @Column(name = "series")
     private int series;
 
+    @NotNull
     @Column(name = "model")
     private String model;
 
