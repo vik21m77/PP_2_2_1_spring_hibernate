@@ -37,7 +37,7 @@ public class MainApp {
       carService.add(new Car(22,"LADA", userService.listUsers().get(2)));
       carService.add(new Car(33,"RENO", userService.listUsers().get(1)));
       carService.add(new Car(44,"Toyota", userService.listUsers().get(0)));
-      System.out.println(userService.findUserByCar("BMW",11).getFirstName());
+      System.out.println(userService.findUserByCar("BMW",11));
 
       context.close();
    }
